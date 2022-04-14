@@ -1,0 +1,34 @@
+.navbar {
+   background-color: #F4F3F6;
+   border-bottom: 1px solid #0A0A0A;
+
+   a {
+      color: #0A0A0A;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+
+      &:hover {
+         color: #AAA4B6;
+         transition: all 0.3s ease;
+      }
+
+      &:active {
+         color: #AAA4B6;
+      }
+
+      &:focus {
+         color: #AAA4B6;
+      }
+   }
+
+   .nav-name {
+      font-family: 'Rubik Moonrocks', cursive;
+      font-size: 30px;
+      margin-left: 15px;
+   }
+
+   .navbar-toggler {
+      border: none;
+      color: #0A0A0A;
+   }
+}
